@@ -5,8 +5,8 @@ header, footer {
     display: flex;
     align-items: center;
     padding: 18px;
-    background-color: steelblue;
-    border: 2px solid steelblue;
+    background-color: #184059;
+    border: 2px solid #184059;
     border-radius: 8px;
 }
 
@@ -48,7 +48,7 @@ p {
 
 .hintQuote {
     margin-bottom: 32px;
-    color: darkgrey;
+    color: #595959;
     font-style: italic;
 }
 
