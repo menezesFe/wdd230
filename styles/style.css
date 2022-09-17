@@ -10,8 +10,18 @@ header, footer {
     border-radius: 8px;
 }
 
+img, h2 {
+    margin: 8px 16px;
+}
+
 h1 {
+    margin-top: 32px;
     font-family: Arvo, Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 19px black;
+}
+
+h2 {
+    text-shadow: 0 0 19px black;
 }
 
 .shadow {
@@ -22,16 +32,22 @@ footer {
     flex-direction: column;
 }
 
+hr {
+    margin: 0;
+}
+
 h2, p {
     color: white;
     font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
 }
 
 p {
+    margin: 0;
     font-size: larger;
 }
 
 .hintQuote {
+    margin-bottom: 32px;
     color: darkgrey;
     font-style: italic;
 }
