@@ -41,6 +41,10 @@ h2, p {
     font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
 }
 
+li {
+    font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+}
+
 p {
     margin: 0;
     font-size: larger;
