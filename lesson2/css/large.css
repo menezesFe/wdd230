@@ -1,3 +1,4 @@
-main { grid-template-columns: 33% 33% 34%; }
+main { grid-template-columns: 33% 33% 33%; column-gap: 0.5%;}
+
 
 #youtube { grid-column: 3/4; }
