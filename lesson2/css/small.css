@@ -15,3 +15,28 @@ header a {
     color:gainsboro;
     text-decoration: none;
 }
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+section {
+    margin: 8px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background-color: lightgray;
+}
+
+section h2 {
+    padding: 8px;
+    font-size: 1.25rem;
+    background-color: rgb(53, 53, 93);
+    margin: 0;
+    color: white;
+    border-radius: 16px 16px 0 0;
+}
+
+footer p{
+    padding: 16px;
+}
