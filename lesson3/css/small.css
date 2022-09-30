@@ -14,8 +14,9 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
+
 
 nav ul {
     display: flex;
@@ -63,6 +64,10 @@ ul {
 
 .active a:visited {
     color: #7ead0b;
+}
+
+a {
+    align-self: center;
 }
 
 img {

@@ -4,6 +4,6 @@ h2 { font-size: 2rem; }
 
 nav ul li { font-size: 2rem; }
 
-nav ul {}
-
 #links { flex-direction: row; justify-content: space-around; }
+
+#color { margin: 0 32px; width: 90%; }
