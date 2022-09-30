@@ -58,8 +58,18 @@ h1, h2 {
 
 p {
     font-family: Lato, Arial, Helvetica, sans-serif;
+    margin-left: 8px;
 }
 
 .bold {
     font-weight: 900;
+}
+
+#color {
+    width: 45%;
+}
+
+#brown {
+    background-color: #271801;
+    color: white;
 }
