@@ -1,4 +1,9 @@
-main { grid-template-columns: 33% 33% 33%; column-gap: 0.5%;}
+nav ul li { font-size: 2.25rem; }
 
+#tables { flex-direction: row; }
 
-#youtube { grid-column: 3/4; }
+.top { margin: 0;}
+
+.personas { margin: 2%; }
+
+#color { width: 35%; }
