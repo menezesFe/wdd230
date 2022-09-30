@@ -2,10 +2,18 @@
 
 ul {
     display: flex;
+    align-items: flex-end;
 }
 
 li {
     list-style: none;
+    padding: 0 16px;
+    font-family: 'League Gothic', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+#logo, ul {
+    padding: 0;
 }
 
 h1, h2 {
