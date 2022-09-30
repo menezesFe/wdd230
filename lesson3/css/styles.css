@@ -3,3 +3,7 @@
 h1, h2 {
     font-family: Volkhov, Georgia, 'Times New Roman', Times, serif;
 }
+
+li {
+    list-style: none;
+}
