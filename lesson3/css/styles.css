@@ -73,3 +73,23 @@ p {
     background-color: #271801;
     color: white;
 }
+
+#yellow {
+    background-color: #f7bf4f;
+}
+
+#light-yellow {
+    background-color: #fff3bf;
+}
+
+#green {
+    background-color: #2b9149;
+}
+
+#bright-green {
+    background-color: #7ead0b;
+}
+
+#red {
+    background-color: #ff0000;
+}
