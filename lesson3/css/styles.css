@@ -112,3 +112,32 @@ p {
     font-family: 'League Gothic', cursive;
     font-size: 1.25rem;
 }
+
+#tables {
+    display: flex;
+    justify-content: left;
+}
+
+.personas {
+    border-collapse: collapse;
+    margin: 0px 64px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.personas td, .personas th {
+    border: 1px solid #271801;
+    padding: 8px;
+}
+
+.personas th {
+    background-color: #f7bf4f;
+}
+
+.personas td {
+    background-color: #fff3bf;
+}
+
+#demographics td, #demographics th {
+    border-style: none;
+}
