@@ -38,7 +38,7 @@ a:visited {
 }
 
 a:hover {
-    color: #7ead0b;
+    color: #2b9149;
 }
 
 #logo, ul {
@@ -48,8 +48,8 @@ a:hover {
     align-items: flex-end;
 }
 
-.active {
-    color: #2b9149;
+.active a:visited {
+    color: #7ead0b;
 }
 
 img {
