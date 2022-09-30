@@ -97,3 +97,17 @@ p {
 #red {
     background-color: #ff0000;
 }
+
+#serif {
+    font-family: Volkhov, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+#sans-serif {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+#decorative {
+    font-family: 'League Gothic', cursive;
+    font-size: 1.25rem;
+}
