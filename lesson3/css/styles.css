@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=League+Gothic&family=Volkhov&display=swap');
 
+body {
+    margin: 0;
+}
+
+nav {
+    background: #271801;
+}
+
 ul {
+    margin: 0;
     display: flex;
     align-items: flex-end;
 }
@@ -10,6 +19,19 @@ li {
     padding: 0 16px;
     font-family: 'League Gothic', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5rem;
+}
+
+a {
+    margin: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: #f7bf4f;
+}
+
+a:visited {
+    color: #f7bf4f;
 }
 
 #logo, ul {
