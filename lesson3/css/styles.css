@@ -5,13 +5,20 @@ body {
 }
 
 nav {
+    padding: 0;
     background: #271801;
 }
 
 ul {
-    margin: 0;
     display: flex;
     align-items: flex-end;
+}
+
+#links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 100%;
 }
 
 li {
@@ -19,10 +26,6 @@ li {
     padding: 0 16px;
     font-family: 'League Gothic', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5rem;
-}
-
-a {
-    margin: 0;
 }
 
 a:link {
@@ -34,8 +37,19 @@ a:visited {
     color: #f7bf4f;
 }
 
+a:hover {
+    color: #7ead0b;
+}
+
 #logo, ul {
     padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+img {
+    height: 102px;
 }
 
 h1, h2 {
