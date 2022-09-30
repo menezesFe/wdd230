@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=League+Gothic&family=Volkhov&display=swap');
 
+li {
+    list-style: none;
+}
+
 h1, h2 {
     font-family: Volkhov, Georgia, 'Times New Roman', Times, serif;
 }
 
-li {
-    list-style: none;
+p {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.bold {
+    font-weight: 900;
 }
