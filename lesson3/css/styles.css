@@ -5,7 +5,7 @@ body {
     font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
-nav {
+nav, footer {
     padding: 0;
     background: #271801;
 }
@@ -149,4 +149,12 @@ p {
 #scenarios li {
     margin: 8px 32px;
     padding: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff3bf;
 }
