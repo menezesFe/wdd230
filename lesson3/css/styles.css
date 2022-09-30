@@ -48,6 +48,10 @@ a:hover {
     align-items: flex-end;
 }
 
+.active {
+    color:#2b9149;
+}
+
 img {
     height: 102px;
 }
