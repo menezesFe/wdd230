@@ -2,6 +2,8 @@ h1 { font-size: 3rem; }
 
 h2 { font-size: 2rem; }
 
-main { grid-template-columns: 50% 50%; }
+nav ul li { font-size: 2rem; }
 
-#youtube { grid-column: 1/3; }
+nav ul {}
+
+#links { flex-direction: row; justify-content: space-around; }
