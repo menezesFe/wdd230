@@ -1,63 +1,177 @@
-header, footer{
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=League+Gothic&family=Volkhov&display=swap');
+
+body {
+    margin: 0;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+nav, footer {
+    padding: 0;
+    background: #271801;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+#links {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(26, 26, 96);
+    justify-content: space-around;
+    width: 100%;
 }
 
-header h1, header h2, footer p {
-    color: white;
-    text-align: center;
-    margin: 0;
+#links li {
+    padding: 8px 8px;
 }
 
-h1 {
-    font-size: 2.5rem;
+nav ul li {
+    list-style: none;
+    padding: 0 16px;
+    font-family: 'League Gothic', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
 }
 
-h2 {
-    font-size: 1.30rem;
-}
-
-header a {
-    color:gainsboro;
+a:link {
     text-decoration: none;
+    color: #f7bf4f;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 100%;
+a:visited {
+    color: #f7bf4f;
 }
 
-section {
-    margin: 8px;
-    /* border: 2px solid red; */
-    border-radius: 16px;
-    background-color: lightgray;
+a:hover {
+    color: #2b9149;
 }
 
-section h2 {
-    padding: 8px;
-    font-size: 1.25rem;
-    background-color: rgb(53, 53, 93);
+ul {
+    padding: 0;
     margin: 0;
-    color: white;
-    border-radius: 16px 16px 0 0;
+    display: flex;
+    align-items: flex-end;
 }
 
-section * {
-    margin: 8px;
-}
-
-a {
-    margin: 8px 8px;
+.active a:visited {
+    color: #7ead0b;
 }
 
 img {
-    width: 90%;
-    margin: 5%;
+    height: 102px;
 }
 
-footer p{
-    padding: 16px 8px;
+h1, h2 {
+    font-family: Volkhov, Georgia, 'Times New Roman', Times, serif;
+    margin-left: 4px;
+}
+
+p {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    margin-left: 8px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+#color {
+    width: 45%;
+}
+
+#brown {
+    background-color: #271801;
+    color: white;
+}
+
+#yellow {
+    background-color: #f7bf4f;
+}
+
+#light-yellow {
+    background-color: #fff3bf;
+}
+
+#green {
+    background-color: #2b9149;
+}
+
+#bright-green {
+    background-color: #7ead0b;
+}
+
+#red {
+    background-color: #ff0000;
+}
+
+#serif {
+    font-family: Volkhov, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+#sans-serif {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+#decorative {
+    font-family: 'League Gothic', cursive;
+    font-size: 1.25rem;
+}
+
+#tables {
+    display: flex;
+    justify-content: space-around;
+}
+
+.personas {
+    border-collapse: collapse;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.personas td, .personas th {
+    border: 1px solid #271801;
+    padding: 8px;
+}
+
+.personas th {
+    background-color: #f7bf4f;
+}
+
+.personas td {
+    background-color: #fff3bf;
+}
+
+.demographics td, .demographics th {
+    border-style: none;
+}
+
+#scenarios {
+    display:block;
+}
+
+#scenarios li {
+    margin: 8px 32px;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff3bf;
+    padding: 8px;
+}
+
+footer p {
+    margin: 8px 8px;
 }
