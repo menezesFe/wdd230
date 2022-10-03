@@ -3,3 +3,25 @@
 #header {
     display: flex;
 }
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 8px;
+    text-decoration: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li{
+    display: block;
+}
