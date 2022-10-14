@@ -1,7 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=League+Gothic&family=Volkhov&display=swap');
 
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-bottom: 16px;
+    background-color: #271801;
+}
 
 #header {
     display: flex;
+}
+
+h1, h2, p{
+    padding: 0 8px;
+}
+
+h1, h2 {
+    font-family: Volkhov, Georgia, 'Times New Roman', Times, serif;
+    color: #fff3bf;
+}
+
+#date {
+    color:#fff3bf
 }
 
 ul {
@@ -10,8 +32,13 @@ ul {
 }
 
 li {
+    font-family: 'League Gothic', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 8px;
+}
+
+a, li { 
     text-decoration: none;
+    color: #f7bf4f;
 }
 
 .navigation li:first-child {
@@ -24,4 +51,36 @@ li {
 
 .responsive li{
     display: block;
+}
+
+/* MAIN SECTION */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    background-color: darkgray;
+    margin: 4px 0;
+}
+
+#spotlights {
+    padding: 8px;
+}
+
+.spotlight {
+    border: 1px solid #271801;
+}
+
+/* FOOTER SECTION */
+footer {
+    background-color: #271801;
+    color: #fff3bf;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottom {
+    border-top: 1px solid #fff3bf;
 }
