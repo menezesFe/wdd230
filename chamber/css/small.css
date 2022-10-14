@@ -158,6 +158,10 @@ section {
     border: 1px solid #271801;
 }
 
+#spot3 {
+    display: none;
+}
+
 /* FOOTER SECTION */
 footer {
     background-color: #271801;
