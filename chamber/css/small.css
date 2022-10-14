@@ -79,6 +79,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 8px 0; 
 }
 
 h3 {
@@ -92,5 +93,10 @@ footer p {
 }
 
 .bottom {
+    padding: 16px 0;
     border-top: 1px solid #fff3bf;
+}
+
+.bottom p {
+    margin: 0;
 }
