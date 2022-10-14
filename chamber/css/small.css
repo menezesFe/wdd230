@@ -172,6 +172,8 @@ section {
 
 section h2 {
     text-shadow: -1px 0 #271801, 0 1px #271801, 1px 0 #271801, 0 -1px #271801;
+    color:#fff3bf;
+    font-size: 1.1rem;
 }
 
 #hero {
@@ -181,11 +183,6 @@ section h2 {
     background-image: url("../images/900-city-small.jpg");
     background-repeat: no-repeat;
     height: 200px;
-}
-
-#hero h2, #event h2 {
-    color:#fff3bf;
-    font-size: 1.1rem;
 }
 
 #event h3 {
