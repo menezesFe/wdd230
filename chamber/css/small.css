@@ -89,8 +89,16 @@ a, li {
     display: block;
 }
 
-.responsive > li > a > span {
-    content: "\2716";
+#closing {
+    display: none;
+}
+
+.responsive > li > a > #icon {
+    display: none;
+}
+
+.responsive > li > a > #closing {
+    display: flex;
 }
 
 .date {
