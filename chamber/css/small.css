@@ -11,6 +11,11 @@ header {
 
 #header {
     display: flex;
+    justify-content: space-between;
+}
+
+#logoHead {
+    display: flex;
 }
 
 h1 {
@@ -39,7 +44,7 @@ ul {
     list-style: none;
 }
 
-li {
+a {
     font-family: 'League Gothic', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 8px;
 }
@@ -47,6 +52,11 @@ li {
 a, li {
     text-decoration: none;
     color: #f7bf4f;
+}
+
+li a:hover{
+    color:#fff3bf;
+    /* background-color: rgba(39, 24, 1, 0.80); */
 }
 
 .navigation {
@@ -67,10 +77,16 @@ a, li {
 
 .navigation li {
     display: none;
+    padding: 8px;
 }
 
 #menubtn {
     align-self: flex-end;
+}
+
+#menubtn a{
+    margin: 0;
+    padding: 0;
 }
 
 .responsive {
@@ -78,7 +94,7 @@ a, li {
     flex-direction: column;
     align-items: center;
     position: fixed;
-    height: 50vh;
+    height: 100vh;
     width: 100%;
     left: 0;
     top: 0;
