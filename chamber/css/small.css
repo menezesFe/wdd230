@@ -36,11 +36,11 @@ h2 {
     font-size: 0.85rem;
 }
 
-h1, h2, p{
+h1, h2, h3, p{
     padding: 0 8px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Volkhov, Georgia, 'Times New Roman', Times, serif;
     color: #fff3bf;
 }
@@ -164,8 +164,45 @@ main {
 }
 
 section {
-    background-color: darkgray;
+    background-color: rgba(39, 24, 1, 0.25);
+    text-align: center;
     margin: 4px 0;
+    color: #271801;
+}
+
+section h2 {
+    text-shadow: -1px 0 #271801, 0 1px #271801, 1px 0 #271801, 0 -1px #271801;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../images/900-city-small.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+#hero h2, #event h2 {
+    color:#fff3bf;
+    font-size: 1.1rem;
+}
+
+#event h3 {
+    color:#271801;
+    font-size: 1rem;
+    margin: 0;
+    padding: 8px;
+}
+
+button {
+    align-self: flex-end;
+    background-color: #2b9149;
+    color: #f7bf4f;
+    border-radius: 15%;
+    border: 1px solid #f7bf4f;
+    width: 142px;
+    height: 32px;
 }
 
 #join {
@@ -194,7 +231,7 @@ footer {
     padding: 8px 0; 
 }
 
-h3 {
+#address h3 {
     font-family: Volkhov, Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     margin: 0;
