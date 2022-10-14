@@ -89,6 +89,10 @@ a, li {
     display: block;
 }
 
+.responsive > li > a > span {
+    content: "\2716";
+}
+
 .date {
     display: flex;
     justify-content: center;
