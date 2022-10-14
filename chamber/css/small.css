@@ -14,15 +14,23 @@ header {
     justify-content: space-between;
 }
 
+#heading {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #logoHead {
     display: flex;
 }
 
 h1 {
     font-size: 1.25rem;
+    margin: 8px 0;
 }
 
 h2 {
+    margin: 0;
     font-size: 0.95rem;
 }
 
@@ -133,6 +141,10 @@ section {
     margin: 4px 0;
 }
 
+#join {
+    display: none;
+}
+
 #spotlights {
     padding: 8px;
 }
@@ -168,4 +180,8 @@ footer p {
 
 .bottom p {
     margin: 0;
+}
+
+.divider {
+    display: none;
 }
