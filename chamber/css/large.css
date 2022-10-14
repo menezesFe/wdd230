@@ -1,0 +1,17 @@
+/* HEADER */
+#header {
+    padding: 16px 32px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+
+.navigation li {
+    display: block;
+}

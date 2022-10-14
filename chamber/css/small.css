@@ -64,7 +64,9 @@ a, li {
 }
 
 li a:hover{
-    color:#fff3bf;
+    color:#f7bf4f;
+    font-size: 38px;
+    text-decoration: underline;
     /* background-color: rgba(39, 24, 1, 0.80); */
 }
 
