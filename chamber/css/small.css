@@ -81,6 +81,16 @@ footer {
     text-align: center;
 }
 
+h3 {
+    font-family: Volkhov, Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 0;
+}
+
+footer p {
+    margin: 0 0 16px 0;
+}
+
 .bottom {
     border-top: 1px solid #fff3bf;
 }
