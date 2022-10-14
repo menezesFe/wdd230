@@ -24,10 +24,12 @@ let months = [
 
 let d = new Date(document.lastModified);
 let year = d.getFullYear();
-// let dayName = dayNames[d.getDay()];
-// let monthName = months[d.getMonth()];
+let dayName = dayNames[d.getDay()];
+let monthName = months[d.getMonth()];
 let fullDate = d.getMonth() + "/" + d.getDate() + "/" + year + " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+let spelledDate = dayName + ", " + d.getDate() + " " + monthName + " " + year;
 
-document.getElementById("currentDate").textContent = fullDate;
+document.getElementById("currentDate").textContent = spelledDate;
+document.getElementById("modifiedDate").textContent = fullDate;
 document.querySelector("#currentYear").textContent = year;
 /**************************************** */
