@@ -4,10 +4,10 @@ header {
     padding-bottom: 8px;
 }
 
-.date {
+/* .date {
     background-color: rgba(247, 191, 79, 0.20);
     margin: 8px;
-}
+} */
 
 /* MAIN SECTION */
 
@@ -45,6 +45,31 @@ main {
 }
 
 /* FOOTER SECTION */
+
+footer {
+    justify-content: space-between;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact p {
+    margin: 0;
+}
+
 .bottom {
     display: flex;
     justify-content: space-between;
