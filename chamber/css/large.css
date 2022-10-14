@@ -61,3 +61,7 @@ main {
     grid-row: 1/4;
 }
 
+/* FOOTER */
+#top, .bottom {
+    padding: 16px 32px;
+}
