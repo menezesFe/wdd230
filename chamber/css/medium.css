@@ -52,6 +52,12 @@ main {
 
 #spotlights {
     grid-row: 3/3;
+    display: flex;
+}
+
+.spotlight {
+    width: 45%;
+    margin: 0 8px;
 }
 
 #event, #weather {
