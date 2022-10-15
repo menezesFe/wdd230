@@ -10,6 +10,23 @@ header {
     padding-bottom: 8px;
 }
 
+.banner {
+    display: none;
+}
+
+.active {
+    display: block;
+    padding: 16px 8px;
+    background-color: #fff3bf;
+    color:#271801;
+    font-size: 20px;
+    text-align: center;
+}
+
+#bannerBtn {
+    width: 32px;
+}
+
 #header {
     display: flex;
     justify-content: space-between;
