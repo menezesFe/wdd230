@@ -70,6 +70,10 @@ h1, h2, h3 {
     width: 15px;
 }
 
+.fa-facebook:hover, .fa-linkedin:hover {
+    font-size: 1.2rem;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -197,11 +201,12 @@ button {
     align-self: flex-end;
     background-color: #f7bf4f;
     color: #2b9149;
-    border-radius: 15%;
+    border-radius: 20px;
     border: 1px solid #2b9149;
-    width: 142px;
-    height: 32px;
-    font-weight:800;
+    width: 218px;
+    height: 55px;
+    font-weight:900;
+    font-size:1.15rem;
 }
 
 #weather {
@@ -212,8 +217,9 @@ button {
 
 #forecast {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 32px;
 }
 
 #forecast p, #forecast-text {
@@ -224,10 +230,12 @@ button {
     display:flex;
     justify-content: flex-end;
     border-bottom: 2px solid #271801;
+    margin: 0 32px;
 }
 
 .fa-sun {
     font-size: 102px;
+    text-shadow: -3px 0 #f7bf4f, 0 3px #f7bf4f, 3px 0 #f7bf4f, 0 -3px #f7bf4f;
 }
 
 #wind {
@@ -260,6 +268,8 @@ button {
 
 .fa-truck-moving {
     font-size: 102px;
+    text-shadow: -3px 0 #f7bf4f, 0 3px #f7bf4f, 3px 0 #f7bf4f, 0 -3px #f7bf4f;
+
 }
 
 .spotlight p{
@@ -267,17 +277,23 @@ button {
     margin: 0;
 }
 
-.quote {
+.spotlight .quote {
     /* width: 80%;
     border-bottom: 2px solid #271801; */
     padding-bottom: 8px;
-    margin: 4px 16px;
-    font-size: 1.2rem;
+    /* margin: 4px 16px; */
+    font-size: 1.25rem;
     font-style: italic;
 }
 
+.fa-pen-to-square {
+    font-size: 102px;
+    text-shadow: -3px 0 #f7bf4f, 0 3px #f7bf4f, 3px 0 #f7bf4f, 0 -3px #f7bf4f;
+
+}
+
 hr {
-    margin: 0 auto;
+    margin: 8px auto 0 auto;
     width: 90%;
     border-top: 2px solid #271801;
 }
@@ -304,6 +320,10 @@ footer {
 
 footer p {
     margin: 0 0 16px 0;
+}
+
+#bold {
+    font-size: 1.25rem;
 }
 
 .bottom {
