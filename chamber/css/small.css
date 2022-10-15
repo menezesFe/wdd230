@@ -209,6 +209,11 @@ button {
     font-size:1.15rem;
 }
 
+button:hover {
+    width:234px;
+    height: 60px;
+}
+
 #weather {
     display: flex;
     flex-direction: column;
