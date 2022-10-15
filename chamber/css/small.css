@@ -182,12 +182,14 @@ section h2 {
 }
 
 #hero {
+    padding: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-image: url("../images/900-city-small.jpg");
     background-repeat: no-repeat;
     height: 200px;
+    max-width: 1015px;
 }
 
 #event h3 {

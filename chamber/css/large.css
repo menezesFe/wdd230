@@ -59,6 +59,17 @@ main {
 #spotlights {
     grid-column: 4/4;
     grid-row: 1/4;
+    display: grid;
+}
+
+.spotlight {
+    width: auto;
+    margin: 4px 0;
+}
+
+.fa-tree {
+    font-size: 102px;
+    text-shadow: -3px 0 #f7bf4f, 0 3px #f7bf4f, 3px 0 #f7bf4f, 0 -3px #f7bf4f;
 }
 
 /* FOOTER */
