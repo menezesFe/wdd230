@@ -10,5 +10,5 @@ if (currentDay == "1" || currentDay == "2") {
 
 bannerBtn.onclick = () => {
     const el = document.querySelector('#bannerone');
-    el.classList.remove("dayoff");
+    el.classList.remove("active");
 }
