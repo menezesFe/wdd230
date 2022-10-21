@@ -54,7 +54,6 @@
                     <source media="(min-width: 1024px)" srcset ="images/2508-people.jpg">
                     <source media="(min-width: 640px)" srcset ="images/1000-people.jpg">
                     <img src="images/659-people.jpg" alt="City view">
-                    <img src="" alt="City view">
                 </picture>
                 <h2 class="top-center">Welcome the the Edge of the Square</h2>
                 <button class="bot-right">Join the Chamber</button>
@@ -69,12 +68,12 @@
             <h2>Weather</h2>
             <div id="forecast">
                 <i class="fa-solid fa-sun"></i>
-                <p>31&#8451;</p>
+                <p><span id="temp"></span>&#8451;</p>
             </div>
             <div id="forecast-text">Sunny</div>
             <div id="wind">
                 <div id="wind-text"><p>Wind Speed: </p><p>Wind Chill: </p></div>
-                <div id="wind-value"><p>2.5 km/h </p><p>N/A</p></div>
+                <div id="wind-value"><p><span id="w-speed">2.5</span></p><p>N/A</p></div>
             </div>
         </section>
         <section id="news">
