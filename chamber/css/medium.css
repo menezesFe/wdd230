@@ -29,8 +29,12 @@ main {
 }
 
 #hero {
-    background-image: url("../images/1000-city.jpg");
-    background-repeat: no-repeat;
+    /* background-image: url("../images/1000-city.jpg");
+    background-repeat: no-repeat; */
+    height: auto;
+}
+
+picture img {
     height: auto;
 }
 

@@ -199,14 +199,38 @@ section h2 {
 }
 
 #hero {
-    padding: 8px;
+    position: relative;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("../images/900-city-small.jpg");
-    background-repeat: no-repeat;
+    /* background-image: url("../images/900-city-small.jpg");
+    background-repeat: no-repeat; */
     height: 200px;
     max-width: 1015px;
+}
+
+/* PICTURE */
+/* picture {
+    width: 100%;
+} */
+picture img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+.top-center {
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bot-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
 }
 
 #event h3 {
