@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css" media="screen and (min-width: 640px)">
-    <link rel="stylesheet" href="css/large.css" media="screen and (min-width: 1064px)">
+    <link rel="stylesheet" href="css/large.css" media="screen and (min-width: 1024px)">
     <script src="https://kit.fontawesome.com/4a3c800b37.js" crossorigin="anonymous"></script>
 
 </head>
@@ -49,8 +49,15 @@
     </header>
     <main>
         <section id="hero">
-            <h2>Welcome the the Edge of the Square</h2>
-            <button>Join the Chamber</button>
+            <!-- <div id="pic"> -->
+                <picture>
+                    <source media="(min-width: 1024px)" srcset ="images/2508-city.jpg">
+                    <source media="(min-width: 640px)" srcset ="images/1000-city.jpg">
+                    <img src="images/659-city.jpg" alt="City view">
+                </picture>
+                <h2 class="top-center">Welcome the the Edge of the Square</h2>
+                <button class="bot-right">Join the Chamber</button>
+            <!-- </div> -->
         </section>
         <section id="event">
             <h2>Ribbon Cutting</h2>
