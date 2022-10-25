@@ -23,6 +23,8 @@ let months = [
 ];
 
 let d = new Date(document.lastModified);
+// let currentDay = new Date();
+// console.log(currentDay);
 let year = d.getFullYear();
 let dayName = dayNames[d.getDay()];
 let monthName = months[d.getMonth()];

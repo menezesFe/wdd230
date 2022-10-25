@@ -5,8 +5,145 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover Our Chamber of Commerce</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css" media="screen and (min-width: 640px)">
+    <link rel="stylesheet" href="css/large.css" media="screen and (min-width: 1024px)">
+    <script src="https://kit.fontawesome.com/4a3c800b37.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header>
+        <div class="banner" id="bannerone">
+            <button id="bannerBtn">X</button>
+            <p>&#129309; Come join us for the chamber meet and greet Wednesday at 7:00p.m.</p>
+        </div>
+        <div id="header">
+            <div id="logoHead">
+                <a href="index.html"><img src="images/logopng128.webp" alt="Site logo made with yellow squares with 'The Edge of the Square, Opportunity for all' written on"></a>
+                <div id="heading">
+                    <h1>The Edge of the Square</h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+            </div>
+            <div id="social">
+                <a href="https://www.facebook.com/felipe.menezes.372/" class="fa fa-facebook"></a>
+                <a href="https://www.linkedin.com/in/femn/" class="fa fa-linkedin"></a>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li id="menubtn"><a href="#" onclick="toggleMenu()"><span id="closing">&#10006;</span><span id="icon">&#9776;</span></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discovery.html">Discovery</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="../index.html">Assignment Portal</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="date">
+            <p id="currentDate">Current Date</p>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <picture>
+                <source media="(min-width: 1024px)" srcset ="images/2508-lots.jpg">
+                <source media="(min-width: 640px)" srcset ="images/1000-lots.jpg">
+                <img src="images/659-lots.jpg" alt="People crossing">
+            </picture>
+            <h2 class="top-center">Our Community</h2>
+            <button class="bot-right">Join the Chamber</button>
+
+        </section>
+        <section id="event">
+            <h2>Founding</h2>
+            <h3>For the people</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+        </section>
+        <section id="weather">
+            <h2>Weather</h2>
+            <div id="forecast">
+                <i class="fa-solid fa-sun"></i>
+                <p><span id="temperature">31</span>&#8457;</p>
+                <!-- &#8451; Celsius -->
+            </div>
+            <div id="forecast-text">Sunny</div>
+            <div id="wind">
+                <div id="wind-text"><p>Wind Speed: </p><p>Wind Chill: </p></div>
+                <div id="wind-value"><p><span id="w-speed">3.5</span> mph</p><p><span id="chill"></span> &#8457;</p></div>
+            </div>
+        </section>
+        <section id="news">
+            <h2>Population</h2>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        </section>
+        <section id="join">
+            <button id="join-us">Join Us!</button>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization.</p>
+        </section>
+        <section id="spotlights">
+            <h2>Explore</h2>
+            <div id="wrapper">
+                <div class="spotlight">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset ="images/2508-beach.jpg">
+                        <source media="(min-width: 640px)" srcset ="images/1000-beach.jpg">
+                        <img src="images/659-beach.jpg" alt="Beach view" loading="lazy">
+                    </picture>
+                    <h2 class="top-center">Nature</h2>
+                    
+                </div>
+                <div class="spotlight">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset ="images/2508-food.jpg">
+                        <source media="(min-width: 640px)" srcset ="images/1000-food.jpg">
+                    <img src="images/659-food.jpg" alt="Food view" loading="lazy">
+                </picture>
+                <h2 class="top-center">Cuisine</h2>
+                
+                </div>
+                <div class="spotlight" id="spot3">
+                    <h2>Build a Tree Fort</h2>
+                    <i class="fa-solid fa-tree"></i>
+                    <p class="quote">Over 1000 plans</p>
+                    <hr>
+                    <p>builda@treefort.com</p>
+                    <p>+999-9999-9999 Website</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="top">
+            <div id="left">
+                <a href="index.html"><img src="images/logopng128.webp" alt="Site logo made with yellow squares with 'The Edge of the Square, Opportunity for all' written on"></a>
+                <div id="address">
+                    <h3>The Edge of the Square Chamber of Commerce</h3>
+                    <p>123 Street Av,<br>Edge of the Square, Geometry Country</p>
+                </div>
+            </div>
+            <div id="contact">
+                <p>info@edgeofsquare.org</p>
+                <p>+ (776) 1234-5678</p>
+                <p>&#128205; Location</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>&copy; <span id="currentYear"></span> The Edge of the Square</p>
+            <p class="divider">|</p>
+            <p><strong id="bold">Felipe Menezes</strong></p>
+            <p class="divider">|</p>
+            <p>WDD 230 Project</p>
+            <p class="divider">|</p>
+            <p id="updated">Last Modification: <span id="modifiedDate"></span></p>
+        </div>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/script.js"></script>
+    <!-- <script src="js/reminder.js"></script> -->
+    <script src="js/windchill.js"></script>
     
 </body>
 </html>

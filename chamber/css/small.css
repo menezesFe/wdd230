@@ -226,6 +226,7 @@ picture img {
     top: 8px;
     width: 100%;
     object-fit: cover;
+    padding: 0;
 }
 
 .bot-right {
@@ -316,6 +317,7 @@ button:hover {
 }
 
 .spotlight {
+    position: relative;
     padding: 8px;
     border: 1px solid #271801;
 }
