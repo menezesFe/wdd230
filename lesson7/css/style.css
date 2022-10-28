@@ -3,6 +3,7 @@ div {
     /* grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr); */
     border: 2px solid blue;
+    margin-top: 16px; 
 }
 
 .red {
@@ -16,4 +17,15 @@ div img[data-src] {
 div, img {
     filter: blur(0em);
     transition: filter 0.5s;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: larger;
 }

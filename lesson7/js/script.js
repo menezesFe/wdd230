@@ -1,4 +1,3 @@
-//removes data-src and links the path there to src
 let imagesToLoad = document.querySelectorAll("img[data-src]");
 const loadImages = (image) => {
   image.setAttribute("src", image.getAttribute("data-src"));
@@ -6,6 +5,10 @@ const loadImages = (image) => {
     image.removeAttribute("data-src");
   };
 };
+
+// imagesToLoad.forEach((img) => {
+//     loadImages(img);
+//   });
 
 if ("IntersectionObserver" in window) {
 const observer = new IntersectionObserver((items, observer) => {
