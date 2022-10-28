@@ -1,3 +1,19 @@
 div {
+    width: 301px;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr); */
     border: 2px solid blue;
+}
+
+.red {
+    border: 2px solid red;
+}
+
+div img[data-src] {
+    filter: blur(0.5em);
+}
+
+div, img {
+    filter: blur(0em);
+    transition: filter 0.5s;
 }

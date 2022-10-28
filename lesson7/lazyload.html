@@ -6,16 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lazy Loading Activity</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <h1>Lazy Loading Activity!</h1>
 
     <div id="container">
         <img src="https://via.placeholder.com/300x400.jpg?text=Placeholder+image"
-        data-src="images/300-beach.jpg">
+        data-src="images/300-beach.jpg" alt="Palm tree on a beach"
+        loading="lazy">
+        <img src="https://via.placeholder.com/300x400.jpg?text=Placeholder+image"
+        data-src="images/300-city.jpg" alt="City view"
+        loading="lazy">
+        <img src="https://via.placeholder.com/300x400.jpg?text=Placeholder+image"
+        data-src="images/300-downtown.jpg" alt="Downtown of a city"
+        loading="lazy">
+        <img src="https://via.placeholder.com/300x400.jpg?text=Placeholder+image"
+        data-src="images/300-food.jpg" alt="Food on a plate"
+        loading="lazy">
+        <img src="https://via.placeholder.com/300x400.jpg?text=Placeholder+image"
+        data-src="images/300-park.jpg" alt="Amusement park view"
+        loading="lazy">
+        <img src="https://via.placeholder.com/300x400.jpg?text=Placeholder+image"
+        data-src="images/300-people.jpg" alt="People at a crosswalk"
+        loading="lazy">
     </div>
 
-
-    
 </body>
 </html>
