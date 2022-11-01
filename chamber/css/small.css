@@ -368,6 +368,14 @@ hr {
     margin-bottom: 16px;
 }
 
+.forms p {
+    font-size: 32px;
+    font-weight: 900;
+    margin: 8px 0;
+    padding: 0;
+}
+
+
 input[type=text], input[type=email], input[type=tel], input[type=textarea], input[type=submit] {
     border: 1px solid #f7bf4f;
     background-color: #fff3bf;
@@ -386,9 +394,19 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    margin-top: 8px;
     height: 40px;
     background-color: #f7bf4f;
+}
+
+.green {
+    border: 1px solid #2b9149;
+    background-color: aqua;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.red {
+    border: 1px solid red;
+    background-color: firebrick;
 }
 
 /* FOOTER SECTION */

@@ -24,7 +24,7 @@ main {
     padding: 8px;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 8px;
-    grid-template-rows: repeat(5, 1fr);
+    /* grid-template-rows: repeat(5, 1fr); */
     
 }
 
@@ -72,6 +72,27 @@ picture img {
 
 #event, #weather {
     grid-row: 5/5;
+}
+
+/* FORM STYLES */
+.forms {
+    display: flex;
+    /* flex-direction: column; */
+    grid-column: 1/5;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=textarea], input[type=submit] {
+    max-width: 90%;
+}
+
+input[type=submit] {
+    height: 48px;
+}
+
+input[type=submit]:hover {
+    /* margin-top: 8px; */
+    height: 56px;
+    background-color: #f7bf4f;
 }
 
 /* FOOTER SECTION */
