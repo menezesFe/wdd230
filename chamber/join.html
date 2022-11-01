@@ -48,7 +48,61 @@
             <p id="currentDate">Current Date</p>
         </div>
     </header>
+    <main>
+        <form action="thankyou.html" method="get">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required><br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required><br><br>
+            <label for="title">Business Position:</label>
+            <input type="text" id="title" name="title"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="name123@mail.com" required><br><br>
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            <label for="bname">Business Name:</label>
+            <input type="text" id="bname" name="bname" required><br><br>
+            <p>Membership</p>
+            <input type="radio" id="np" name="membership" value="0">
+            <label for="np">Non Profit - $0</label><br><br>
+            <input type="radio" id="bronze" name="membership" value="100">
+            <label for="bronze">Bronze Membership - $100</label><br><br>
+            <input type="radio" id="silver" name="membership" value="200">
+            <label for="silver">Silver - $200</label><br><br>
+            <input type="radio" id="gold" name="membership" value="300">
+            <label for="gold">Gold - $300</label><br><br>
+            <label for="description">Business Description:</label>
+            <input type="textarea" id="description" name="description" placeholder="describe your business">
+            <input type="hidden" id="date-current" name="date-current" value="date">
+            <input type="submit" value="Submit">            
+        </form>
 
+    </main>
+    <footer>
+        <div id="top">
+            <div id="left">
+                <a href="index.html"><img src="images/logopng128.webp" alt="Site logo made with yellow squares with 'The Edge of the Square, Opportunity for all' written on"></a>
+                <div id="address">
+                    <h3>The Edge of the Square Chamber of Commerce</h3>
+                    <p>123 Street Av,<br>Edge of the Square, Geometry Country</p>
+                </div>
+            </div>
+            <div id="contact">
+                <p>info@edgeofsquare.org</p>
+                <p>+ (776) 1234-5678</p>
+                <p>&#128205; Location</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>&copy; <span id="currentYear"></span> The Edge of the Square</p>
+            <p class="divider">|</p>
+            <p><strong id="bold">Felipe Menezes</strong></p>
+            <p class="divider">|</p>
+            <p>WDD 230 Project</p>
+            <p class="divider">|</p>
+            <p id="updated">Last Modification: <span id="modifiedDate"></span></p>
+        </div>
+    </footer>
 
     <script src="js/date.js"></script>
     <script src="js/script.js"></script>

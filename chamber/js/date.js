@@ -34,4 +34,6 @@ let spelledDate = dayName + ", " + d.getDate() + " " + monthName + " " + year;
 document.getElementById("currentDate").textContent = spelledDate;
 document.getElementById("modifiedDate").textContent = fullDate;
 document.querySelector("#currentYear").textContent = year;
+let x = new Date();
+document.getElementById("date-current").value = x;
 /**************************************** */
