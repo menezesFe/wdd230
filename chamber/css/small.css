@@ -2,12 +2,18 @@
 
 body {
     font-family: Lato, Arial, Helvetica, sans-serif;
+    background-color: rgba(39, 24, 1, 0.15);
+
 }
 
 header {
     margin-bottom: 16px;
     background-color: #271801;
     padding-bottom: 8px;
+}
+
+#lightbk {
+    color: #271801;
 }
 
 .banner {
@@ -314,6 +320,13 @@ button:hover {
 
 #spotlights {
     padding: 8px;
+}
+
+#msg {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding: 0;
 }
 
 .spotlight {

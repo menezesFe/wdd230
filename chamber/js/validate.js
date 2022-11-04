@@ -1,16 +1,20 @@
-const regex = /([a-zA-Z-\s]{7})/g;
+const regex = /([A-Za-z\s\-]){7,}/;
 let position = document.getElementById("title");
-let text = position.value;
+
 // let valid = document.getElementById("container");
+// REGEx not working
+
+// console.log(regex);
 
 position.addEventListener('keyup', function () {
-    let test = regex.test(text);
-    console.log(test);
-    if (regex.test(text)) {
-        position.style.backgroundColor = "green";
-        console.log("Check");
+    let valid = regex.test(position.value);
+    console.log(valid);
+    if (valid) {
+        // console.log(text);
+        position.style.backgroundColor = "lightgreen";
+        // console.log("Check");
     } else {
-        position.style.backgroundColor = "red";
-    };
+        position.style.backgroundColor = "#fff3bf";
+    }
     console.log(position.value);
 });
