@@ -61,7 +61,7 @@ picture img {
     grid-row: 3/3;
 }
 
-#spot3 {
+.spot {
     display: block;
 }
 
@@ -69,6 +69,13 @@ picture img {
     grid-column: 4/4;
     grid-row: 1/4;
     display: grid;
+    grid-template-rows: 30px, 1fr, 1fr, 1fr;
+}
+
+#wrapper {
+    grid-row: 2/5;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .spotlight {
