@@ -180,9 +180,21 @@ li a:hover{
 
 .date {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: rgba(247, 191, 79, 0.20);
     margin: 8px;
+}
+
+.visit {
+    margin: 0;
+    padding-bottom: 8px;
+    color:#fff3bf;
+}
+
+#visited {
+    color:#f7bf4f;
 }
 
 /* MAIN SECTION */

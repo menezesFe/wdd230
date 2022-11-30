@@ -70,6 +70,11 @@ picture img {
     margin: 0 8px;
 }
 
+.spotlight > picture > img:hover {
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
 #event, #weather {
     grid-row: 5/5;
 }
