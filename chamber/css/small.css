@@ -187,15 +187,6 @@ li a:hover{
     margin: 8px;
 }
 
-.visit {
-    margin: 0;
-    padding-bottom: 8px;
-    color:#fff3bf;
-}
-
-#visited {
-    color:#f7bf4f;
-}
 
 /* MAIN SECTION */
 main {
@@ -350,7 +341,7 @@ button:hover {
 .fa-truck-moving {
     font-size: 102px;
     text-shadow: -3px 0 #f7bf4f, 0 3px #f7bf4f, 3px 0 #f7bf4f, 0 -3px #f7bf4f;
-
+    
 }
 
 .spotlight p{
@@ -370,7 +361,7 @@ button:hover {
 .fa-pen-to-square {
     font-size: 102px;
     text-shadow: -3px 0 #f7bf4f, 0 3px #f7bf4f, 3px 0 #f7bf4f, 0 -3px #f7bf4f;
-
+    
 }
 
 hr {
@@ -469,4 +460,14 @@ footer p {
 
 .divider {
     display: none;
+}
+
+.visit {
+    margin: 0;
+    padding-bottom: 8px;
+    color:#fff3bf;
+}
+
+#visited {
+    color:#f7bf4f;
 }
