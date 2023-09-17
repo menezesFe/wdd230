@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Maven+Pro&display=swap');
 
-header, footer, nav {
+main, header, footer, nav {
     justify-content: center;
     display: flex;
     align-items: center;
     padding: 18px;
+}
+
+main {
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+header, footer, nav, .c-title {
     background-color: #184059;
     border: 2px solid #184059;
     border-radius: 8px;
@@ -49,6 +57,18 @@ h2 {
     text-shadow: 0 0 19px black;
 }
 
+h3 {
+    color: white;
+}
+
+.c-title {
+    margin: 8px;
+    width: 94vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .shadow {
     box-shadow: 3px 3px 15px 4px #2b2b2b;
 }
@@ -58,6 +78,7 @@ footer {
 }
 
 hr {
+    flex: 0 0 100%;
     margin: 0;
 }
 
