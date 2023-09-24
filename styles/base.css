@@ -3,13 +3,12 @@
 main, header, footer, nav {
     justify-content: center;
     display: flex;
-    align-items: center;
     padding: 18px;
+    align-items: center;
 }
 
 main {
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 
 header, footer, nav, .c-title {
@@ -21,6 +20,7 @@ header, footer, nav, .c-title {
 nav ul{
     list-style-type:none;
     display: flex;
+    flex-direction: column;
 }
 
 nav ul li a{
@@ -67,6 +67,11 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
 }
 
 .shadow {

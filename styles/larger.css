@@ -1,0 +1,24 @@
+@media only screen and (min-width: 800px) {
+    nav ul {
+        flex-direction: row;
+    }
+
+    section {
+        padding: 4px 32px;
+    }
+
+    .c-title {
+        width: 100%;
+    }
+
+    .activities {
+        width: 45%;
+    }
+
+    .info {
+        height: 360px;
+    }
+    /* .activities {
+        max-width: 100px;
+    } */
+}
