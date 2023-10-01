@@ -53,9 +53,13 @@ ul {
 .active a:visited {
     color: #7ead0b;
 }
-
+/* 
 img {
     height: 102px;
+} */
+
+.topline {
+    display: flex;
 }
 
 h1, h2 {
