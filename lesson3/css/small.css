@@ -70,9 +70,17 @@ a {
     align-self: center;
 }
 
-/* img {
-    height: 102px;
-} */
+img {
+    margin: 16px;
+}
+
+.topline {
+    display: flex;
+}
+
+.card {
+    display: flex;
+}
 
 h1, h2 {
     font-family: Volkhov, Georgia, 'Times New Roman', Times, serif;
